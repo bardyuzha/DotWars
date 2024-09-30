@@ -1,0 +1,13 @@
+.dot {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+
+  &--team1 {
+    background: #000;
+  }
+
+  &--team2 {
+    background: #fff;
+  }
+}

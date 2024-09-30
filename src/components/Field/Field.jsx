@@ -1,4 +1,5 @@
 import { CONFIG } from '../../config';
+import { Dots } from '../Dots/Dots';
 import './Field.scss';
 
 export const Field = () => (
@@ -11,6 +12,7 @@ export const Field = () => (
       }
     }
   >
-    Field
+    <div className='dot dot--team1'></div>
+    <div className='dot dot--team2'></div>
   </div>
 );
