@@ -1,7 +1,8 @@
-import './App';
+import { Field } from '../Field/Field';
+import './App.scss';
 
 export const App = () => (
-    <div className="App">
-      123
-    </div>
+  <div className='dotWars'>
+    <Field />
+  </div>
 );
